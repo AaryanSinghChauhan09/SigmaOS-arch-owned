@@ -3,7 +3,7 @@ name = "SigmaOS-arch-owned"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-owned component"
+description = "SigmaOS SigmaOS-arch-owned component"
 upstream = []
 
 [contract]
