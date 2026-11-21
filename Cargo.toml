@@ -1,10 +1,10 @@
 [package]
-name = "arch-owned"
+name = "sigmaos-owned"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-owned component - SigmaOS component"
+description = "SigmaOS SigmaOS-owned component - SigmaOS component"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-owned"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-owned"
 
 [dependencies]
 thiserror = "2"

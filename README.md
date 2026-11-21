@@ -1,6 +1,6 @@
-# SigmaOS-arch-owned
+# SigmaOS-owned
 
-SigmaOS SigmaOS-arch-owned component
+SigmaOS SigmaOS-owned component
 
 - **Category:** Components
 - **Engine:** component

@@ -1,9 +1,9 @@
 [component]
-name = "SigmaOS-arch-owned"
+name = "SigmaOS-owned"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "SigmaOS SigmaOS-arch-owned component"
+description = "SigmaOS SigmaOS-owned component"
 upstream = []
 
 [contract]

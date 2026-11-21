@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-owned Component Wiki
+# SigmaOS-SigmaOS-owned Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-owned provides SigmaOS SigmaOS-arch-owned component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-owned provides SigmaOS SigmaOS-owned component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-owned Abstraction
-- Fail-Fast on SigmaOS-arch-owned Initialization Errors
-- Deterministic SigmaOS-arch-owned Setup
-- Clear Abstraction Over SigmaOS-arch-owned APIs
-- Composition over Inheritance for SigmaOS-arch-owned extensions
+- SigmaOS-owned Abstraction
+- Fail-Fast on SigmaOS-owned Initialization Errors
+- Deterministic SigmaOS-owned Setup
+- Clear Abstraction Over SigmaOS-owned APIs
+- Composition over Inheritance for SigmaOS-owned extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-owned follows a SigmaOS-arch-owned pattern:
-- **SigmaOS-arch-owned Core**: Provides SigmaOS-arch-owned support, SigmaOS-arch-owned management, and SigmaOS-arch-owned tracking
-- **Management**: Supports SigmaOS-arch-owned management, SigmaOS-arch-owned configuration, and SigmaOS-arch-owned lifecycle
-- **Tracking**: Supports SigmaOS-arch-owned status, SigmaOS-arch-owned tracking, and SigmaOS-arch-owned lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-owned configurations or unsupported SigmaOS-arch-owned types
+SigmaOS-SigmaOS-owned follows a SigmaOS-owned pattern:
+- **SigmaOS-owned Core**: Provides SigmaOS-owned support, SigmaOS-owned management, and SigmaOS-owned tracking
+- **Management**: Supports SigmaOS-owned management, SigmaOS-owned configuration, and SigmaOS-owned lifecycle
+- **Tracking**: Supports SigmaOS-owned status, SigmaOS-owned tracking, and SigmaOS-owned lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-owned configurations or unsupported SigmaOS-owned types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-owned by given configuration
--  - Register a SigmaOS-arch-owned by given name
--  - Get SigmaOS-arch-owned status and SigmaOS-arch-owned availability
--  - Track SigmaOS-arch-owned management and SigmaOS-arch-owned tracking
-- Error types for SigmaOS-arch-owned failure scenarios or unsupported SigmaOS-arch-owned types
+-  - Manage a SigmaOS-owned by given configuration
+-  - Register a SigmaOS-owned by given name
+-  - Get SigmaOS-owned status and SigmaOS-owned availability
+-  - Track SigmaOS-owned management and SigmaOS-owned tracking
+- Error types for SigmaOS-owned failure scenarios or unsupported SigmaOS-owned types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-owned configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-owned init, SigmaOS-arch-owned management)
-3. **Assert**: Verify the expected SigmaOS-arch-owned results
+1. **Arrange**: Set up test environment with specific SigmaOS-owned configuration
+2. **Act**: Execute the code under test (SigmaOS-owned init, SigmaOS-owned management)
+3. **Assert**: Verify the expected SigmaOS-owned results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-owned initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-owned failure scenarios
-- Unit tests provided for SigmaOS-arch-owned management and configuration
-- Integration tests for full SigmaOS-arch-owned system with actual SigmaOS-arch-owned integration
+- SigmaOS-owned initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-owned failure scenarios
+- Unit tests provided for SigmaOS-owned management and configuration
+- Integration tests for full SigmaOS-owned system with actual SigmaOS-owned integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-owned types
-- Expand SigmaOS-arch-owned capabilities (SigmaOS-arch-owned features, SigmaOS-arch-owned configurations, SigmaOS-arch-owned tracking)
-- Add lifecycle features (SigmaOS-arch-owned tracking, SigmaOS-arch-owned lifecycle, SigmaOS-arch-owned propagation)
-- Create integration tests with actual SigmaOS-arch-owned systems and SigmaOS-arch-owned integration
-- Implement SigmaOS-arch-owned persistence and SigmaOS-arch-owned state management
+- Add support for additional SigmaOS-owned types
+- Expand SigmaOS-owned capabilities (SigmaOS-owned features, SigmaOS-owned configurations, SigmaOS-owned tracking)
+- Add lifecycle features (SigmaOS-owned tracking, SigmaOS-owned lifecycle, SigmaOS-owned propagation)
+- Create integration tests with actual SigmaOS-owned systems and SigmaOS-owned integration
+- Implement SigmaOS-owned persistence and SigmaOS-owned state management

@@ -1,4 +1,4 @@
-use arch_owned::Component;
+use sigmaos_owned::Component;
 
 #[test]
 fn test_component_new_aaa() {
